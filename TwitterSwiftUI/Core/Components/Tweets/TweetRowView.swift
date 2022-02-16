@@ -79,14 +79,16 @@ struct TweetRowView: View {
 
             }
             .padding()
+            .foregroundColor(.gray)
+            
+            Divider()
         }
-        .padding()
     }
 }
 
 struct TweetRowView_Previews: PreviewProvider {
     static var previews: some View {
         TweetRowView()
-            
+            .previewLayout(.sizeThatFits)
     }
 }
