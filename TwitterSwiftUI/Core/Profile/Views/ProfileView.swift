@@ -93,28 +93,8 @@ extension ProfileView {
             .font(.caption)
             .foregroundColor(.gray)
             
-            HStack(spacing: 24) {
-                HStack(spacing: 4) {
-                    Text("807")
-                        .font(.subheadline)
-                        .bold()
-                    
-                    Text("Following")
-                        .font(.caption)
-                        .foregroundColor(.gray)
-                }
-                
-                HStack(spacing: 4) {
-                    Text("6.9M")
-                        .font(.subheadline)
-                        .bold()
-                    
-                    Text("Following")
-                        .font(.caption)
-                        .foregroundColor(.gray)
-                }
-            }
-            .padding(.vertical)
+            UserStatsView()
+                .padding(.vertical)
         }
         .padding(.horizontal)
     }
@@ -183,28 +163,3 @@ extension ProfileView {
         }
     }
 }
-
-//struct actionButtons: View {
-//    var body: some View {
-//        HStack(spacing: 12) {
-//            Spacer()
-//
-//            Image(systemName: "bell.badge")
-//                .font(.title3)
-//                .padding(6)
-//                .overlay(Circle().stroke(Color.gray, lineWidth: 0.75))
-//
-//            Button {
-//
-//            } label: {
-//                Text("Edit profile")
-//                    .font(.subheadline).bold()
-//                    .frame(width: 120, height: 32)
-//                    .foregroundColor(.black)
-//                    .overlay(RoundedRectangle(cornerRadius: 20).stroke(Color.gray, lineWidth: 0.75))
-//            }
-//
-//        }
-//        .padding(.trailing)
-//    }
-//}
