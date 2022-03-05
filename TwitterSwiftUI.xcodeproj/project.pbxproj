@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AD3D7D3527D26BC7002E3388 /* SideMenuOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D7D3427D26BC7002E3388 /* SideMenuOptionRowView.swift */; };
+		AD3D7D3A27D2A882002E3388 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D7D3927D2A882002E3388 /* NewTweetView.swift */; };
+		AD3D7D3C27D2AA1A002E3388 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D7D3B27D2AA1A002E3388 /* TextArea.swift */; };
 		ADB47A3C27BD6E2700E51C1E /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3B27BD6E2700E51C1E /* ExploreView.swift */; };
 		ADB47A3E27BD6E4C00E51C1E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3D27BD6E4C00E51C1E /* NotificationsView.swift */; };
 		ADB47A4027BD6E6700E51C1E /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3F27BD6E6700E51C1E /* MessagesView.swift */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		AD3D7D3427D26BC7002E3388 /* SideMenuOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionRowView.swift; sourceTree = "<group>"; };
+		AD3D7D3927D2A882002E3388 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
+		AD3D7D3B27D2AA1A002E3388 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		ADB47A3B27BD6E2700E51C1E /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		ADB47A3D27BD6E4C00E51C1E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		ADB47A3F27BD6E6700E51C1E /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
@@ -60,6 +64,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD3D7D3627D2A85C002E3388 /* UploadTweet */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D7D3827D2A86D002E3388 /* Views */,
+				AD3D7D3727D2A866002E3388 /* ViewModels */,
+			);
+			path = UploadTweet;
+			sourceTree = "<group>";
+		};
+		AD3D7D3727D2A866002E3388 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD3D7D3827D2A86D002E3388 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D7D3927D2A882002E3388 /* NewTweetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		ADB47A3827BD6DCB00E51C1E /* Explore */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,9 +230,10 @@
 		ADB4B2AF27BC37C5001DBC4E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				ADB4B2B427BC381B001DBC4E /* Components */,
+				AD3D7D3627D2A85C002E3388 /* UploadTweet */,
 				ADB47A4E27BEE55800E51C1E /* SideMenu */,
 				ADB47A4B27BE9F0600E51C1E /* Users */,
-				ADB4B2B427BC381B001DBC4E /* Components */,
 				ADB47A3A27BD6E0600E51C1E /* Profile */,
 				ADB47A3927BD6DFA00E51C1E /* Messages */,
 				ADB47A3827BD6DCB00E51C1E /* Explore */,
@@ -241,6 +270,7 @@
 			children = (
 				ADB47A5727BEE79400E51C1E /* Users */,
 				ADB4B2BA27BC3A86001DBC4E /* Tweets */,
+				AD3D7D3B27D2AA1A002E3388 /* TextArea.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -370,8 +400,10 @@
 				ADB4B2BC27BC3AA9001DBC4E /* TweetRowView.swift in Sources */,
 				ADB47A4827BD95ED00E51C1E /* TweetFilterViewModel.swift in Sources */,
 				ADB4B2B927BC387A001DBC4E /* FeedView.swift in Sources */,
+				AD3D7D3C27D2AA1A002E3388 /* TextArea.swift in Sources */,
 				ADB47A5227BEE57400E51C1E /* SideMenuView.swift in Sources */,
 				ADB4B2A227BC379B001DBC4E /* TwitterSwiftUIApp.swift in Sources */,
+				AD3D7D3A27D2A882002E3388 /* NewTweetView.swift in Sources */,
 				ADB47A3C27BD6E2700E51C1E /* ExploreView.swift in Sources */,
 				ADB47A5627BEE58A00E51C1E /* SideMenuViewModel.swift in Sources */,
 				ADB47A4D27BE9F1400E51C1E /* UserRowView.swift in Sources */,
