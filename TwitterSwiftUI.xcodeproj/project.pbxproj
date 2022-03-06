@@ -14,6 +14,7 @@
 		AD3D7D4427D2F8B1002E3388 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D7D4327D2F8B1002E3388 /* RegistrationView.swift */; };
 		AD3D7D4627D305C6002E3388 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D7D4527D305C6002E3388 /* RoundedShape.swift */; };
 		AD3D7D4827D3F486002E3388 /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D7D4727D3F486002E3388 /* CustomInputField.swift */; };
+		AD3D7D4B27D5332E002E3388 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D7D4A27D5332E002E3388 /* AuthHeaderView.swift */; };
 		ADB47A3C27BD6E2700E51C1E /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3B27BD6E2700E51C1E /* ExploreView.swift */; };
 		ADB47A3E27BD6E4C00E51C1E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3D27BD6E4C00E51C1E /* NotificationsView.swift */; };
 		ADB47A4027BD6E6700E51C1E /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3F27BD6E6700E51C1E /* MessagesView.swift */; };
@@ -41,6 +42,7 @@
 		AD3D7D4327D2F8B1002E3388 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		AD3D7D4527D305C6002E3388 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedShape.swift; path = ../../../../../../../Developer/RoundedShape.swift; sourceTree = "<group>"; };
 		AD3D7D4727D3F486002E3388 /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
+		AD3D7D4A27D5332E002E3388 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		ADB47A3B27BD6E2700E51C1E /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		ADB47A3D27BD6E4C00E51C1E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		ADB47A3F27BD6E6700E51C1E /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,14 @@
 				AD3D7D4327D2F8B1002E3388 /* RegistrationView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AD3D7D4927D5331D002E3388 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D7D4A27D5332E002E3388 /* AuthHeaderView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 		ADB47A3827BD6DCB00E51C1E /* Explore */ = {
@@ -302,6 +312,7 @@
 		ADB4B2B427BC381B001DBC4E /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				AD3D7D4927D5331D002E3388 /* Authentication */,
 				ADB47A5727BEE79400E51C1E /* Users */,
 				ADB4B2BA27BC3A86001DBC4E /* Tweets */,
 				AD3D7D3B27D2AA1A002E3388 /* TextArea.swift */,
@@ -433,6 +444,7 @@
 				ADB47A4027BD6E6700E51C1E /* MessagesView.swift in Sources */,
 				ADB47A4427BD859F00E51C1E /* ProfileView.swift in Sources */,
 				ADB4B2A427BC379B001DBC4E /* ContentView.swift in Sources */,
+				AD3D7D4B27D5332E002E3388 /* AuthHeaderView.swift in Sources */,
 				ADB47A5427BEE57E00E51C1E /* SideMenuRowView.swift in Sources */,
 				ADB4B2BC27BC3AA9001DBC4E /* TweetRowView.swift in Sources */,
 				ADB47A4827BD95ED00E51C1E /* TweetFilterViewModel.swift in Sources */,
