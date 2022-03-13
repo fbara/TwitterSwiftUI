@@ -16,8 +16,16 @@ struct RegistrationView: View {
     
     @Environment(\.presentationMode) var presentationMode
     
+    @EnvironmentObject var viewModel: AuthViewModel
+    
     var body: some View {
+        
         VStack{
+            
+            NavigationLink(destination: ProfilePhotoSelectorView(),
+                           isActive: $viewModel.didAuthenticateUser,
+                           label: { } )
+            
             AuthHeaderView(title1: "Get started.", title2: "Create your account.")
             
             VStack(spacing: 40) {
@@ -27,12 +35,12 @@ struct RegistrationView: View {
                 
                 CustomInputField(imageName: "person", placeholderText: "Full name", text: $fullname)
                 
-                CustomInputField(imageName: "lock", placeholderText: "Password", text: $password)
+                CustomInputField(imageName: "lock", placeholderText: "Password", isSecureField: true, text: $password)
             }
             .padding(32)
             
             Button {
-                print("sign in here")
+                viewModel.register(withEmail: email, password: password, fullName: fullname, userName: username)
             } label: {
                 Text("Sign Up")
                     .font(.headline)

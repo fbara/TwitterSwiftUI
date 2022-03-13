@@ -20,6 +20,8 @@
 		ADB1854327D6D1E2001EB791 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = ADB1854227D6D1E2001EB791 /* FirebaseFirestore */; };
 		ADB1854527D6D1E2001EB791 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = ADB1854427D6D1E2001EB791 /* FirebaseFirestoreSwift-Beta */; };
 		ADB1854727D6D1E2001EB791 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ADB1854627D6D1E2001EB791 /* FirebaseStorage */; };
+		ADB1854B27D6D3F9001EB791 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1854A27D6D3F9001EB791 /* AuthViewModel.swift */; };
+		ADB1854D27D9BBF0001EB791 /* ProfilePhotoSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1854C27D9BBF0001EB791 /* ProfilePhotoSelectorView.swift */; };
 		ADB47A3C27BD6E2700E51C1E /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3B27BD6E2700E51C1E /* ExploreView.swift */; };
 		ADB47A3E27BD6E4C00E51C1E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3D27BD6E4C00E51C1E /* NotificationsView.swift */; };
 		ADB47A4027BD6E6700E51C1E /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3F27BD6E6700E51C1E /* MessagesView.swift */; };
@@ -50,6 +52,8 @@
 		AD3D7D4A27D5332E002E3388 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		AD9473B427D6CA2B002C2088 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD9473B727D6CD2B002C2088 /* firebase-ios-sdk-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "firebase-ios-sdk-master"; path = "../../../../../../../Volumes/ExtDrive/ExtDownloads/firebase-ios-sdk-master"; sourceTree = "<group>"; };
+		ADB1854A27D6D3F9001EB791 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		ADB1854C27D9BBF0001EB791 /* ProfilePhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoSelectorView.swift; sourceTree = "<group>"; };
 		ADB47A3B27BD6E2700E51C1E /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		ADB47A3D27BD6E4C00E51C1E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		ADB47A3F27BD6E6700E51C1E /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
@@ -121,6 +125,7 @@
 		AD3D7D3E27D2F882002E3388 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				ADB1854A27D6D3F9001EB791 /* AuthViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			children = (
 				AD3D7D4127D2F8A9002E3388 /* LoginView.swift */,
 				AD3D7D4327D2F8B1002E3388 /* RegistrationView.swift */,
+				ADB1854C27D9BBF0001EB791 /* ProfilePhotoSelectorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -485,12 +491,14 @@
 				ADB4B2A227BC379B001DBC4E /* TwitterSwiftUIApp.swift in Sources */,
 				AD3D7D3A27D2A882002E3388 /* NewTweetView.swift in Sources */,
 				ADB47A3C27BD6E2700E51C1E /* ExploreView.swift in Sources */,
+				ADB1854D27D9BBF0001EB791 /* ProfilePhotoSelectorView.swift in Sources */,
 				ADB47A5627BEE58A00E51C1E /* SideMenuViewModel.swift in Sources */,
 				ADB47A4D27BE9F1400E51C1E /* UserRowView.swift in Sources */,
 				AD3D7D4627D305C6002E3388 /* RoundedShape.swift in Sources */,
 				AD3D7D3527D26BC7002E3388 /* SideMenuOptionRowView.swift in Sources */,
 				ADB4B2BF27BD6CF1001DBC4E /* MainTabView.swift in Sources */,
 				AD3D7D4227D2F8A9002E3388 /* LoginView.swift in Sources */,
+				ADB1854B27D6D3F9001EB791 /* AuthViewModel.swift in Sources */,
 				ADB47A3E27BD6E4C00E51C1E /* NotificationsView.swift in Sources */,
 				ADB47A5927BEE7A300E51C1E /* UserStatsView.swift in Sources */,
 				AD3D7D4427D2F8B1002E3388 /* RegistrationView.swift in Sources */,
