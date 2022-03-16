@@ -42,8 +42,8 @@ class AuthViewModel: ObservableObject {
             
             guard let user = result?.user else { return }
             
-            print("DEBUG: User registered successfully!")
-            print("DEBUG: registered user: \(self.userSession)")
+            print("DEBUG: User registered successfully! String(describing: self.userSession)")
+            print("DEBUG: registered user: String(describing: \(self.userSession)")
             
             // data dictionary
             let data = ["email": email, "username": userName.lowercased(), "fullname": fullName, "uid": user.uid]

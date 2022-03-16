@@ -22,6 +22,7 @@
 		ADB1854727D6D1E2001EB791 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ADB1854627D6D1E2001EB791 /* FirebaseStorage */; };
 		ADB1854B27D6D3F9001EB791 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1854A27D6D3F9001EB791 /* AuthViewModel.swift */; };
 		ADB1854D27D9BBF0001EB791 /* ProfilePhotoSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1854C27D9BBF0001EB791 /* ProfilePhotoSelectorView.swift */; };
+		ADB1855027DE93CF001EB791 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1854F27DE93CF001EB791 /* ImagePicker.swift */; };
 		ADB47A3C27BD6E2700E51C1E /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3B27BD6E2700E51C1E /* ExploreView.swift */; };
 		ADB47A3E27BD6E4C00E51C1E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3D27BD6E4C00E51C1E /* NotificationsView.swift */; };
 		ADB47A4027BD6E6700E51C1E /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB47A3F27BD6E6700E51C1E /* MessagesView.swift */; };
@@ -54,6 +55,7 @@
 		AD9473B727D6CD2B002C2088 /* firebase-ios-sdk-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "firebase-ios-sdk-master"; path = "../../../../../../../Volumes/ExtDrive/ExtDownloads/firebase-ios-sdk-master"; sourceTree = "<group>"; };
 		ADB1854A27D6D3F9001EB791 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		ADB1854C27D9BBF0001EB791 /* ProfilePhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoSelectorView.swift; sourceTree = "<group>"; };
+		ADB1854F27DE93CF001EB791 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		ADB47A3B27BD6E2700E51C1E /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		ADB47A3D27BD6E4C00E51C1E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		ADB47A3F27BD6E6700E51C1E /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
@@ -154,6 +156,14 @@
 				AD9473B727D6CD2B002C2088 /* firebase-ios-sdk-master */,
 			);
 			name = Packages;
+			sourceTree = "<group>";
+		};
+		ADB1854E27DE93BF001EB791 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ADB1854F27DE93CF001EB791 /* ImagePicker.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		ADB47A3827BD6DCB00E51C1E /* Explore */ = {
@@ -259,6 +269,7 @@
 		ADB4B29527BC379B001DBC4E = {
 			isa = PBXGroup;
 			children = (
+				ADB1854E27DE93BF001EB791 /* Utils */,
 				AD9473B627D6CD2B002C2088 /* Packages */,
 				ADB4B2A027BC379B001DBC4E /* TwitterSwiftUI */,
 				ADB4B29F27BC379B001DBC4E /* Products */,
@@ -490,6 +501,7 @@
 				ADB47A5227BEE57400E51C1E /* SideMenuView.swift in Sources */,
 				ADB4B2A227BC379B001DBC4E /* TwitterSwiftUIApp.swift in Sources */,
 				AD3D7D3A27D2A882002E3388 /* NewTweetView.swift in Sources */,
+				ADB1855027DE93CF001EB791 /* ImagePicker.swift in Sources */,
 				ADB47A3C27BD6E2700E51C1E /* ExploreView.swift in Sources */,
 				ADB1854D27D9BBF0001EB791 /* ProfilePhotoSelectorView.swift in Sources */,
 				ADB47A5627BEE58A00E51C1E /* SideMenuViewModel.swift in Sources */,
